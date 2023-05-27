@@ -1,10 +1,13 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import MainNav from "../Navigation/MainNav";
+import UpperNav from "../Navigation/UpperNav";
 
-const Layout = () => {
+const NavLayout = () => {
   return (
     <>
       <nav>
+        <UpperNav />
         <div>
           <Link to="/">zapshop</Link>
         </div>
@@ -24,6 +27,8 @@ const Layout = () => {
             </Link>
           </ul>
         </div>
+
+        <MainNav />
       </nav>
 
       <main>
@@ -34,4 +39,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default NavLayout;

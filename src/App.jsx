@@ -5,7 +5,7 @@ import Furnitures from "./pages/Furnitures/Furnitures";
 import Clothing from "./pages/Clothing/Clothing";
 import Shoes from "./pages/Shoes/Shoes";
 import Electronics from "./pages/Electronics/Electronics";
-import Layout from "./components/Layout/Layout";
+import Layout from "./components/NavLayout/NavLayout";
 import Signin from "./pages/Signin/Signin";
 import Signup from "./pages/Signup/Signup";
 
