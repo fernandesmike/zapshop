@@ -10,9 +10,6 @@ const Layout = () => {
         </div>
         <div>
           <ul>
-            <Link to="/home">
-              <li>Home</li>
-            </Link>
             <Link to="/clothing">
               <li>Clothing</li>
             </Link>
@@ -30,7 +27,7 @@ const Layout = () => {
       </nav>
 
       <main>
-        I am at
+        I am
         <Outlet />
       </main>
     </>

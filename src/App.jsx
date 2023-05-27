@@ -13,11 +13,11 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" exact element={<Signin />} />
+        <Route path="/login" element={<Signin />} />
         <Route path="/register" element={<Signup />} />
 
         <Route element={<Layout />}>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/furnitures" element={<Furnitures />} />
           <Route path="/clothing" element={<Clothing />} />
           <Route path="/shoes" element={<Shoes />} />
