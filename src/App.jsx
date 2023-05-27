@@ -1,18 +1,22 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import { Link } from "react-router-dom";
-import Furnitures from "./pages/Furnitures";
-import Clothing from "./pages/Clothing";
-import Shoes from "./pages/Shoes";
-import Electronics from "./pages/Electronics";
+import Furnitures from "./pages/Furnitures/Furnitures";
+import Clothing from "./pages/Clothing/Clothing";
+import Shoes from "./pages/Shoes/Shoes";
+import Electronics from "./pages/Electronics/Electronics";
 import Layout from "./components/Layout/Layout";
+import Signin from "./pages/Signin/Signin";
+import Signup from "./pages/Signup/Signup";
 
 function App() {
   return (
     <>
       <Routes>
+        <Route path="/" exact element={<Signin />} />
+        <Route path="/register" element={<Signup />} />
+
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/furnitures" element={<Furnitures />} />
           <Route path="/clothing" element={<Clothing />} />
