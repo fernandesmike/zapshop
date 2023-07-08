@@ -1,13 +1,13 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import MainNav from "../Navigation/MainNav";
-import UpperNav from "../Navigation/UpperNav";
+import FixedUpperBanner from "../FixedUpperBanner/FixedUpperBanner";
 
 const NavLayout = () => {
   return (
     <>
       <nav>
-        <UpperNav />
+        <FixedUpperBanner />
         <div>
           <Link to="/">zapshop</Link>
         </div>
