@@ -19,6 +19,14 @@ export default {
       fontFamily: {
         base: "Plus Jakarta Sans, sans-serif",
       },
+
+      // Flexbox content gaps
+      gap: {
+        sm: "8px",
+        md: "16px",
+        lg: "24px",
+        xl: "32px",
+      },
     },
   },
   plugins: [],
