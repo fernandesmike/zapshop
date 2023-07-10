@@ -6,6 +6,9 @@ import Brand from "../../assets/icons/navigation/brand.svg";
 import Server from "../../assets/icons/navigation/ph-flag.svg";
 import Search from "../../assets/icons/navigation/search.svg";
 import Categories from "../../assets/icons/navigation/nav-menu.svg";
+import Cart from "../../assets/icons/navigation/cart.svg";
+import Wishlist from "../../assets/icons/navigation/wishlist.svg";
+import Account from "../../assets/icons/navigation/account.svg";
 
 const MainNavigation = () => {
   return (
@@ -29,16 +32,27 @@ const MainNavigation = () => {
           placeholder="Find and discover clothes, gadgets, or even furnitures"
           className="body text-secondary bg-transparent py-6 w-[100%] focus:outline-none focus:text-primary"
         />
-        <div className="search-categories bg-primary rounded px-6">
-          <button className="flex gap-2 justify-center align-middle body text-white whitespace-nowrap">
-            <img src={Categories} />
-            <p>All categories</p>
-          </button>
-        </div>
+
+        {/* Search categories */}
+        <button className="flex gap-4 justify-center align-middle body text-white whitespace-nowrap bg-primary rounded px-8 py-6 my-auto">
+          <img src={Categories} />
+          <p>All categories</p>
+        </button>
       </div>
 
       {/* Wishlist, Cart, and User account */}
-      <div className="user-actions"> ahaha</div>
+      <div className="user-actions">
+        <div className="wishlist">
+          <img src={Wishlist} />
+        </div>
+        <div className="cart">
+          <img src={Cart} />
+        </div>
+        <div className="account">
+          <img src={Account} />
+          <p>Guest</p>
+        </div>
+      </div>
     </div>
   );
 };
