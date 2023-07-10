@@ -12,10 +12,10 @@ import Account from "../../assets/icons/navigation/account.svg";
 
 const MainNavigation = () => {
   return (
-    <div className="upper-nav flex items-center gap-10">
+    <div className="upper-nav flex items-center gap-11">
       {/* Brand and server */}
       <Link to="/">
-        <div className="branding flex gap-2">
+        <div className="branding flex gap-2 pr-10">
           <img src={Brand} alt="Zapshop logo" />
           <div className="server flex gap-1 items-center">
             <img src={Server} alt="The server you are currently in" />
@@ -41,16 +41,17 @@ const MainNavigation = () => {
       </div>
 
       {/* Wishlist, Cart, and User account */}
-      <div className="user-actions">
-        <div className="wishlist">
+      <div className="user-actions flex gap-8">
+        <div className="wishlist opacity-40">
           <img src={Wishlist} />
         </div>
-        <div className="cart">
+        <div className="cart relative">
           <img src={Cart} />
+          <div className="indicator absolute right-[-5px] top-0 h-4 w-4 bg-brand-accent rounded-full text-center"></div>
         </div>
-        <div className="account">
+        <div className="account flex gap-2 items-center">
           <img src={Account} />
-          <p>Guest</p>
+          <p className="body text-primary uppercase font-bold">Guest</p>
         </div>
       </div>
     </div>
