@@ -17,7 +17,7 @@ const NavLayout = () => {
           <div className="upper-nav mt-4">
             <Navigation />
           </div>
-          <div className="lower-nav py-8">
+          <div className="lower-nav py-9">
             <ShopNavigation />
           </div>
         </nav>
