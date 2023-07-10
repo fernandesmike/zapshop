@@ -9,7 +9,7 @@ const UpperNav = () => {
         <p>Support: (212)456-7890</p>
       </div>
       <div>
-        <p> En  </p>
+        <p> En </p>
       </div>
     </section>
   );
