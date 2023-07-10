@@ -30,11 +30,11 @@ const MainNavigation = () => {
         <input
           type="text"
           placeholder="Find and discover clothes, gadgets, or even furnitures"
-          className="body text-secondary bg-transparent py-6 w-[100%] focus:outline-none focus:text-primary"
+          className="body text-secondary bg-transparent w-[100%] focus:outline-none focus:text-primary"
         />
 
         {/* Search categories */}
-        <button className="flex gap-4 justify-center align-middle body text-white whitespace-nowrap bg-primary rounded px-8 py-6 my-auto">
+        <button className="flex gap-4 justify-center align-middle body text-white whitespace-nowrap bg-primary rounded px-8 py-5 my-auto">
           <img src={Categories} />
           <p>All categories</p>
         </button>
