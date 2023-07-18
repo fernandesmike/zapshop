@@ -21,7 +21,6 @@ const NavLayout = () => {
             <ShopNavigation />
           </div>
         </nav>
-        I am
         <Outlet />
       </main>
     </>

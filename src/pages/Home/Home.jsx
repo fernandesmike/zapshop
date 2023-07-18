@@ -1,9 +1,12 @@
 import React from "react";
 
+// Components
+import Carousel from "../../components/Carousel/Carousel";
+
 const Home = () => {
   return (
     <div>
-      <p className="text-primary">I am at home ehehehe</p>
+      <Carousel />
     </div>
   );
 };
