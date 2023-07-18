@@ -26,8 +26,8 @@ const FixedUpperBanner = () => {
       <div className="center flex gap-2 items-center">
         <img src={Gift} />
         <p className="body">
-          Get up to <strong>60% discounts</strong> on your first 30 orders!{" "}
-          <strong className="link ml-2">
+          Get up to <strong>60% discounts</strong> on your first 30 orders!
+          <strong className="link ml-1">
             <Link to={"/"}>Shop now</Link>
           </strong>
         </p>

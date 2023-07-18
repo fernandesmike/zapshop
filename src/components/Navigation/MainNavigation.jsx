@@ -15,7 +15,7 @@ const MainNavigation = () => {
     <div className="upper-nav flex items-center gap-11">
       {/* Brand and server */}
       <Link to="/">
-        <div className="branding flex gap-2 pr-10">
+        <div className="branding flex gap-2 pr-6">
           <img src={Brand} alt="Zapshop logo" />
           <div className="server flex gap-1 items-center">
             <img src={Server} alt="The server you are currently in" />
