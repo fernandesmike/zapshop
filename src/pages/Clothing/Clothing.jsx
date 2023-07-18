@@ -1,7 +1,7 @@
 import React from "react";
 
 const Clothing = () => {
-  return <div>Clothing</div>;
+  return <div>Clothing HEHEHEHE</div>;
 };
 
 export default Clothing;
