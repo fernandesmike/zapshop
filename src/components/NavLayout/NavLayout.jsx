@@ -1,6 +1,10 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import FixedUpperBanner from "../FixedUpperBanner/FixedUpperBanner";
+import Navigation from "../Navigation/MainNavigation";
+import ShopNavigation from "../Navigation/ShopNavigation";
+
+// Styling
 import "../../styles/typography.css";
 
 const NavLayout = () => {
@@ -8,33 +12,15 @@ const NavLayout = () => {
     <>
       <FixedUpperBanner />
 
-      <nav>
-        <div className="upper-nav"></div>
-          
-        <div className="lower-nav">
-          <div>
-            <Link to="/">zapshop</Link>
-          </div>
-          <div>
-            <ul>
-              <Link to="/clothing">
-                <li>Clothing</li>
-              </Link>
-              <Link to="/shoes">
-                <li>Shoes</li>
-              </Link>
-              <Link to="/furnitures">
-                <li>Furnitures</li>
-              </Link>
-              <Link to="/electronics">
-                <li>Electronics</li>
-              </Link>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
       <main className="px-4">
+        <nav>
+          <div className="upper-nav mt-4">
+            <Navigation />
+          </div>
+          <div className="lower-nav py-9">
+            <ShopNavigation />
+          </div>
+        </nav>
         I am
         <Outlet />
       </main>

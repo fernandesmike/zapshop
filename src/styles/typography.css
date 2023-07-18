@@ -2,6 +2,11 @@
     INCLUDES ONLY THE TYPOGRAPHIC STYLE GUIDES
 */
 
+.tertiary {
+  font-weight: 700;
+  font-size: 14px;
+}
+
 .link-hovered {
   font-weight: bold;
   font-size: 16px;
