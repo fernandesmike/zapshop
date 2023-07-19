@@ -11,7 +11,7 @@ const ProductCard = () => {
   return (
     <div className="max-h-[370px] max-w-[290px]">
       {/* Product image container */}
-      <div className="h-[200px] w-full bg-red-500 rounded-t relative">
+      <div className="h-[150px] w-full bg-red-500 rounded-t relative">
         <img
           className="h-full w-full brightness-90"
           src={ProductImage}

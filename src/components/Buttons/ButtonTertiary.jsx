@@ -1,5 +1,3 @@
-import React from "react";
-
 const ButtonTertiary = () => {
   return <div>ButtonTertiary</div>;
 };
