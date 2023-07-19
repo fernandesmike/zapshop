@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import { Link } from "react-router-dom";
+import Home from "./pages/Home/Home";\
 import Furnitures from "./pages/Furnitures/Furnitures";
 import Clothing from "./pages/Clothing/Clothing";
 import Shoes from "./pages/Shoes/Shoes";
