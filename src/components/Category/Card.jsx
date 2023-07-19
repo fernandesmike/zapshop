@@ -10,8 +10,6 @@ const Card = ({ title, productCount }) => {
         <h3 className="heading-b font-bold">{title}</h3>
         <p className="body font-bold">{productCount}k products</p>
       </div>
-
-      <div>Some changes</div>
     </div>
   );
 };
