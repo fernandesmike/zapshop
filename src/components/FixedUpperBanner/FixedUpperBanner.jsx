@@ -16,7 +16,7 @@ const FixedUpperBanner = () => {
   return (
     // Outer div keeps the container touch both ends of the vw width
     <div className="bg-brand-accent">
-      <div className=" py-4 px-4 flex justify-between text-white max-w-[1920px] mx-auto">
+      <div className="py-4 px-4 flex justify-between text-white max-w-[1920px] mx-auto">
         {/* Left */}
         <div className="social-media flex place-content-start gap-lg w-[256px]">
           <img src={Facebook} />
