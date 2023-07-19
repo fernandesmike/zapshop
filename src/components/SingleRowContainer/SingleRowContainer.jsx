@@ -11,7 +11,7 @@ const SingleRowContainer = () => {
       <div className="py-4">
         <h2 className="title font-bold">Best sellers</h2>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between gap-md">
         <ProductCard />
         <ProductCard />
         <ProductCard />
