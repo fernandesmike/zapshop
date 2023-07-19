@@ -19,7 +19,7 @@ const Home = () => {
         <div className="mb-4">
           <h2 className="title font-bold">Best sellers</h2>
         </div>
-        <div className="flex justify-between gap-md pb-8">
+        <div className="flex justify-between gap-md pb-4">
           <ProductCard />
           <ProductCard />
           <ProductCard />
@@ -37,7 +37,7 @@ const Home = () => {
         <div className="mb-4">
           <h2 className="title font-bold">New items</h2>
         </div>
-        <div className="flex justify-between gap-md pb-8">
+        <div className="flex justify-between gap-md pb-4">
           <ProductCard />
           <ProductCard />
           <ProductCard />
@@ -45,7 +45,7 @@ const Home = () => {
           <ProductCard />
           <ProductCard />
         </div>
-        <div className="flex justify-between gap-md pb-8">
+        <div className="flex justify-between gap-md pb-4">
           <ProductCard />
           <ProductCard />
           <ProductCard />
@@ -62,7 +62,7 @@ const Home = () => {
         <div className="mb-4">
           <h2 className="title font-bold">Best sellers</h2>
         </div>
-        <div className="flex justify-between gap-md pb-8">
+        <div className="flex justify-between gap-md pb-4">
           <ProductCard />
           <ProductCard />
           <ProductCard />
