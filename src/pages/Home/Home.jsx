@@ -15,8 +15,8 @@ const Home = () => {
       <PromoCards />
 
       {/* Single row products */}
-      <div>
-        <div className="py-4">
+      <div className="py-10">
+        <div className="mb-4">
           <h2 className="title font-bold">Best sellers</h2>
         </div>
         <div className="flex justify-between gap-md pb-8">
@@ -33,8 +33,8 @@ const Home = () => {
       </div>
 
       {/* Dual row products */}
-      <div>
-        <div className="py-4">
+      <div className="py-10">
+        <div className="mb-4">
           <h2 className="title font-bold">New items</h2>
         </div>
         <div className="flex justify-between gap-md pb-8">
@@ -58,8 +58,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div>
-        <div className="py-4">
+      <div className="py-10">
+        <div className="mb-4">
           <h2 className="title font-bold">Best sellers</h2>
         </div>
         <div className="flex justify-between gap-md pb-8">
