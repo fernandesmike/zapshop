@@ -13,7 +13,7 @@ const NavLayout = () => {
     <>
       <FixedUpperBanner />
       {/* Max width prevents the container from stretching when zoomed */}
-      <main className="px-4 max-w-[1920px] min-h-[100vh] mx-auto">
+      <main className="px-4 max-w-[1920px] min-h-[70vh] mx-auto">
         <nav>
           <div className="upper-nav mt-4">
             <Navigation />
