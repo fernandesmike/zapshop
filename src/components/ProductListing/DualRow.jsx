@@ -3,7 +3,7 @@ import React from "react";
 import ButtonRightIcon from "../Buttons/ButtonrIGHTIcon";
 import ProductCard from "../ProductCard/ProductCard";
 
-const DualRow = ({ listTitle, showTitle }) => {
+const DualRow = ({ listTitle, showTitle, showButton }) => {
   return (
     <div className="pb-10">
       {showTitle && (
@@ -25,9 +25,11 @@ const DualRow = ({ listTitle, showTitle }) => {
             <ProductCard key={i} />
           ))}
       </div>
-      <div className="flex justify-center ">
-        <ButtonRightIcon buttonTxt={"See more"} />
-      </div>
+      {showButton && (
+        <div className="flex justify-center ">
+          <ButtonRightIcon buttonTxt={"See more"} />
+        </div>
+      )}
     </div>
   );
 };

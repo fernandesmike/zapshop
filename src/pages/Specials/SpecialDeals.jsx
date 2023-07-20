@@ -1,7 +1,30 @@
 import React from "react";
 
+// Components
+import DualRow from "../../components/ProductListing/DualRow";
+
+// Assets
+import SpecialDealBanner from "../../assets/carousel-images/carousel_a.png";
+
 const SpecialDeals = () => {
-  return <div>SpecialDeals</div>;
+  return (
+    <div className="flex flex-col gap-lg">
+      {/* Deal banner container */}
+      <div>
+        <img
+          className="w-full max-h-[325px] min-h-[325px]"
+          src={SpecialDealBanner}
+          alt=""
+        />
+      </div>
+
+      {/* Product cards container */}
+      <DualRow showTitle={false} showButton={false} />
+    </div>
+  );
 };
 
 export default SpecialDeals;
+
+// TODO:
+// 1. Include breadcrumbs here
