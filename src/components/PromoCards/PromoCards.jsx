@@ -7,7 +7,7 @@ import slide_c from "../../assets/carousel-images/carousel_c.jpg";
 
 const PromoCards = () => {
   return (
-    <div className="flex justify-between gap-md mt-4 rounded">
+    <div className="flex justify-between gap-md mt-4 pb-10 rounded">
       {/* The large fungus */}
       <div className="w-full max-w-[900px]">
         <img

@@ -2,7 +2,7 @@ import React from "react";
 
 // Components
 import Tags from "../../components/Tags/Tags";
-import ProductCard from "../../components/ProductCard/ProductCard";
+import DualRow from "../../components/ProductListing/DualRow";
 
 const DailyDeals = () => {
   return (
@@ -22,24 +22,7 @@ const DailyDeals = () => {
       </div>
 
       {/* Product cards container */}
-      <div>
-        <div className="flex justify-between gap-md pb-4">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-        </div>
-        <div className="flex justify-between gap-md pb-4">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-        </div>
-      </div>
+      <DualRow listTitle={"Today's deals"} showTitle={false} />
 
       <div className="flex justify-center ">
         <p className="body text-secondary">
