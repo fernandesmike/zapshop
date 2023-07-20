@@ -5,6 +5,15 @@ import Tags from "../../components/Tags/Tags";
 import DualRow from "../../components/ProductListing/DualRow";
 
 const DailyDeals = () => {
+  // List of all active tags to be inserted
+  const activeTags = [
+    "Shoes",
+    "Electronics",
+    "2nd hand",
+    "Lightning shoes",
+    "Mc Queen",
+  ];
+
   return (
     <div className="flex flex-col gap-lg py-10">
       {/* Title and tag container */}
@@ -13,11 +22,11 @@ const DailyDeals = () => {
 
         {/* Tags */}
         <div className="flex gap-md">
-          <Tags txtContent={"Shoes"} />
-          <Tags txtContent={"Electronics"} />
-          <Tags txtContent={"2nd hand"} />
-          <Tags txtContent={"Lightning shoes"} />
-          <Tags txtContent={"Mc Queen"} />
+          <Tags txtContent={activeTags[0]} />
+          <Tags txtContent={activeTags[1]} />
+          <Tags txtContent={activeTags[2]} />
+          <Tags txtContent={activeTags[3]} />
+          <Tags txtContent={activeTags[4]} />
         </div>
       </div>
 
