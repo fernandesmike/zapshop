@@ -79,3 +79,7 @@ const Home = () => {
 };
 
 export default Home;
+
+// TODO:
+// 1. Make single row product as a component
+// 2. Make double row product as a component
