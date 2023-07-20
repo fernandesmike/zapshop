@@ -7,6 +7,10 @@ import Electronics from "./pages/Electronics/Electronics";
 import Layout from "./components/NavLayout/NavLayout";
 import Signin from "./pages/Signin/Signin";
 import Signup from "./pages/Signup/Signup";
+import DailyDeals from "./pages/DailyDeals/DailyDeals";
+import SpecialDeals from "./pages/Specials/SpecialDeals";
+import BestSellers from "./pages/BestSellers/BestSellers";
+import ExclusiveDeals from "./pages/ExclusiveDeals/ExclusiveDeals";
 
 function App() {
   return (
@@ -21,6 +25,10 @@ function App() {
           <Route path="/clothing" element={<Clothing />} />
           <Route path="/shoes" element={<Shoes />} />
           <Route path="/electronics" element={<Electronics />} />
+          <Route path="/deals" element={<DailyDeals />} />
+          <Route path="/specialdeals" element={<SpecialDeals />} />
+          <Route path="/bestsellers" element={<BestSellers />} />
+          <Route path="/foryou" element={<ExclusiveDeals />} />
         </Route>
       </Routes>
     </>
