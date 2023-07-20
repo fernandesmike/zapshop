@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import ButtonRightIcon from "../Buttons/ButtonrIGHTIcon";
 import ProductCard from "../ProductCard/ProductCard";
 
 const DualRow = ({ listTitle, showTitle }) => {
-  // Populate the state with a total of 6 products
-  const { productList, setProductList } = useState([]);
-
-  useEffect({});
-
   return (
     <div className="pb-10">
       {showTitle && (
@@ -17,20 +12,18 @@ const DualRow = ({ listTitle, showTitle }) => {
         </div>
       )}
       <div className="flex justify-between gap-md pb-4">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {Array(6)
+          .fill(true)
+          .map((_, i) => (
+            <ProductCard key={i} />
+          ))}
       </div>
       <div className="flex justify-between gap-md pb-4">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {Array(6)
+          .fill(true)
+          .map((_, i) => (
+            <ProductCard key={i} />
+          ))}
       </div>
       <div className="flex justify-center ">
         <ButtonRightIcon buttonTxt={"See more"} />

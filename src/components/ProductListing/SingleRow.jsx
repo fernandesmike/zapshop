@@ -10,12 +10,11 @@ const SingleRow = ({ listTitle }) => {
         <h2 className="title font-bold">{listTitle}</h2>
       </div>
       <div className="flex justify-between gap-md pb-4">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {Array(6)
+          .fill(true)
+          .map((_, i) => (
+            <ProductCard key={i} />
+          ))}
       </div>
       <div className="flex justify-center ">
         <ButtonRightIcon buttonTxt={"See more"} />
