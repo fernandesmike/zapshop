@@ -4,7 +4,7 @@ import React from "react";
 import DualRow from "../../components/ProductListing/DualRow";
 
 // Assets
-import SpecialDealBanner from "../../assets/carousel-images/carousel_a.png";
+import SpecialDealBanner from "../../assets/carousel-images/special_event.png";
 
 const SpecialDeals = () => {
   return (
@@ -12,7 +12,7 @@ const SpecialDeals = () => {
       {/* Deal banner container */}
       <div>
         <img
-          className="w-full max-h-[325px] min-h-[325px]"
+          className="w-full max-h-[325px] min-h-[325px] rounded"
           src={SpecialDealBanner}
           alt=""
         />
