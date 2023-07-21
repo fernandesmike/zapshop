@@ -65,3 +65,7 @@ const ProductCard = () => {
 };
 
 export default ProductCard;
+
+// TODO:
+// 1. Show "Add to wishlist" option when hovering
+// 2. Add shadow when hovering
