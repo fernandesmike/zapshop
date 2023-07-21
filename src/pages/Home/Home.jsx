@@ -18,7 +18,7 @@ const Home = () => {
       <SingleRow listTitle={"On sale!"} />
 
       {/* Dual row products */}
-      <DualRow listTitle={"New items"} showTitle={true} />
+      <DualRow listTitle={"New items"} showTitle={true} showButton={true} />
 
       <SingleRow listTitle={"Best sellers"} />
     </div>

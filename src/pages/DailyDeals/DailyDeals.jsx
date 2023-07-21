@@ -31,7 +31,11 @@ const DailyDeals = () => {
       </div>
 
       {/* Product cards container */}
-      <DualRow listTitle={"Today's deals"} showTitle={false} />
+      <DualRow
+        listTitle={"Today's deals"}
+        showTitle={false}
+        showButton={false}
+      />
 
       <div className="flex justify-center ">
         <p className="body text-secondary">
