@@ -14,7 +14,7 @@ const ShopNavigation = () => {
           <Link to="/deals">
             <li>Today's deals</li>
           </Link>
-          <Link to="/specialdeals">
+          <Link to="/special-deals">
             <li className=" relative text-brand-accent">
               <img
                 src={LeftConf}
@@ -27,7 +27,7 @@ const ShopNavigation = () => {
               Mother's day specials
             </li>
           </Link>
-          <Link to="/bestsellers">
+          <Link to="/best-sellers">
             <li className="pr-8">Best sellers</li>
           </Link>
         </ul>
@@ -36,7 +36,7 @@ const ShopNavigation = () => {
       {/* Category navigations */}
       <div className="category-nav">
         <ul className="flex gap-8">
-          <Link to="/foryou">
+          <Link to="/for-you">
             <li>For you</li>
           </Link>
           <Link to="/clothing">

@@ -26,9 +26,9 @@ function App() {
           <Route path="/shoes" element={<Shoes />} />
           <Route path="/electronics" element={<Electronics />} />
           <Route path="/deals" element={<DailyDeals />} />
-          <Route path="/specialdeals" element={<SpecialDeals />} />
-          <Route path="/bestsellers" element={<BestSellers />} />
-          <Route path="/foryou" element={<ExclusiveDeals />} />
+          <Route path="/special-deals" element={<SpecialDeals />} />
+          <Route path="/best-sellers" element={<BestSellers />} />
+          <Route path="/for-you" element={<ExclusiveDeals />} />
         </Route>
       </Routes>
     </>
