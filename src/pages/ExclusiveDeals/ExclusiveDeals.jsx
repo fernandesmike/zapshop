@@ -1,7 +1,7 @@
 import React from "react";
 
 const ExclusiveDeals = () => {
-  return <div>ExclusiveDeals</div>;
+  return <div>Ha? Putangina mo</div>;
 };
 
 export default ExclusiveDeals;
