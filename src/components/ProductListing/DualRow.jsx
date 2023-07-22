@@ -1,6 +1,6 @@
 import React from "react";
 
-import ButtonRightIcon from "../Buttons/ButtonrIGHTIcon";
+import ButtonRightIcon from "../Buttons/ButtonSmall";
 import ProductCard from "../ProductCard/ProductCard";
 
 const DualRow = ({ listTitle, showTitle, showButton }) => {
@@ -27,7 +27,7 @@ const DualRow = ({ listTitle, showTitle, showButton }) => {
       </div>
       {showButton && (
         <div className="flex justify-center ">
-          <ButtonRightIcon buttonTxt={"See more"} />
+          <ButtonRightIcon buttonTxt={"See more"} showIcon={true} />
         </div>
       )}
     </div>
