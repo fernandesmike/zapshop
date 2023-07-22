@@ -11,7 +11,7 @@ const ExclusiveDeals = () => {
         <div className="flex flex-col items-center gap-md">
           <h1 className="heading-a font-bold">Deals for you</h1>
           <p className="body text-secondary">
-            You might like these amazing deals we've only just for you
+            You might like these amazing deals we've got just for you!
           </p>
         </div>
       </div>
