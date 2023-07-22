@@ -1,6 +1,6 @@
 import React from "react";
 
-import ButtonRightIcon from "../Buttons/ButtonrIGHTIcon";
+import ButtonSmall from "../Buttons/ButtonSmall";
 import ProductCard from "../ProductCard/ProductCard";
 
 const SingleRow = ({ listTitle }) => {
@@ -17,7 +17,7 @@ const SingleRow = ({ listTitle }) => {
           ))}
       </div>
       <div className="flex justify-center ">
-        <ButtonRightIcon buttonTxt={"See more"} />
+        <ButtonSmall buttonTxt={"See more"} showIcon={true} />
       </div>
     </div>
   );
